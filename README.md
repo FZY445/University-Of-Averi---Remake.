@@ -1,11 +1,27 @@
-# University of Averiá — New Website
+# University of Averiá — V7.0.0
+Royal academic portal / fictional simulation for GitHub Pages.
 
-This is a completely new static GitHub Pages website, not an update of the previous site.
+## Upload
+Upload `index.html` and the complete `assets/` folder to the repository root.
 
-- Single `index.html`
-- `assets/averia-logo.svg` is the only visual image asset for now.
-- Facility cards intentionally use the UÁ logo instead of facility photos.
-- Student, applicant, exam-room, exam-time, ranking and fictional-news systems run client-side.
-- The website content is fictional/simulation content.
+## Included
+- Royal wine + deep green + gold visual system
+- iOS-inspired liquid glass UI and micro-interactions
+- Campus profile and facilities gallery
+- Lecturer preview + expanded directory
+- Top 10 student leaderboard
+- Mandiri + Fully Funded scholarship details
+- Expanded faculties/programs
+- PMB form with local-only browser storage
+- Automatic unique KETAT exam number
+- Randomized exam date/time/room
+- Exam card lookup
+- 24/7-style local simulation for student counts
+- News simulation with 5–20 minute random cadence and photo variety
+- News detail modals
+- Mobile responsive layout
 
-Upload `index.html` and the `assets` folder to the repository root.
+## Important
+This is a fictional/simulation website. PMB data, NIK, news, student counts, rankings, lecturers and exam records are stored only in the visitor's browser via localStorage and are not sent to a server.
+
+For truly server-side 24/7 AI/news generation, connect a backend or scheduled worker/API.
